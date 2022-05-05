@@ -1,0 +1,50 @@
+﻿  Reading Qt configuration (D:/QT/QT51210/5.12.10/msvc2017_64/bin/qmake)
+  compilation object save succeeded; see E:\科研\向后兼容显示\实验\用户调查系统\userstudy\x64\Release\Image_PS.cso
+  compilation object save succeeded; see E:\科研\向后兼容显示\实验\用户调查系统\userstudy\x64\Release\Image_VS.cso
+  uic 3DDeviceCheck.ui
+  uic ColorTestForm.ui
+  uic Exp1.ui
+  uic ExpComparisonForm.ui
+  uic MainWindowForm.ui
+  uic StereoTest.ui
+  uic userstudy.ui
+  rcc userstudy.qrc
+  moc userstudy.h
+   RCC: Warning: No resources in 'E:\绉戠爺\鍚戝悗鍏煎鏄剧ず\瀹為獙\鐢ㄦ埛璋冩煡绯荤粺\userstudy\userstudy\userstudy.qrc'.
+  moc Trials1.h
+  moc TrialsBase.h
+  moc UserStudyMainWindow.h
+  moc StereoTestWidget.h
+  moc ColorTestWidget.h
+  moc Device3DCheckWidget.h
+  moc Experiment1.h
+  moc Experiment2.h
+  moc ExperimentBase.h
+  moc Display3DWidget.h
+  Experiment1.cpp
+  Experiment2.cpp
+  ExperimentBase.cpp
+  Trials1.cpp
+  TrialsBase.cpp
+  UserStudyMainWindow.cpp
+  ColorTestWidget.cpp
+  Device3DCheckWidget.cpp
+  DXWidget.cpp
+  Display3DWidget.cpp
+  StepTimer.cpp
+  StereoTestWidget.cpp
+  userstudy.cpp
+  main.cpp
+  qrc_userstudy.cpp
+  moc_userstudy.cpp
+  moc_Trials1.cpp
+  moc_TrialsBase.cpp
+  moc_UserStudyMainWindow.cpp
+  moc_StereoTestWidget.cpp
+  moc_ColorTestWidget.cpp
+  moc_Device3DCheckWidget.cpp
+  moc_Experiment1.cpp
+  moc_Experiment2.cpp
+  moc_ExperimentBase.cpp
+  moc_Display3DWidget.cpp
+  userstudy.vcxproj -> E:\科研\向后兼容显示\实验\用户调查系统\userstudy\x64\Release\userstudy.exe

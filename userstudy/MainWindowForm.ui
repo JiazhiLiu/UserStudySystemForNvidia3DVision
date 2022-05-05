@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserStudyMainWindow</class>
+ <widget class="QMainWindow" name="UserStudyMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>User Study System</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuhello">
+    <property name="title">
+     <string>Experiment</string>
+    </property>
+    <addaction name="actionExp1"/>
+    <addaction name="actionExp2"/>
+    <addaction name="actionExperiment_3"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Test</string>
+    </property>
+    <addaction name="actionColor"/>
+    <addaction name="action3DDevice"/>
+    <addaction name="actionStereo"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Mode</string>
+    </property>
+    <addaction name="actionNVIDIA3D"/>
+    <addaction name="actionCommonShutter"/>
+   </widget>
+   <addaction name="menuhello"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExp13D_2">
+   <property name="text">
+    <string>3D测试</string>
+   </property>
+  </action>
+  <action name="action2D">
+   <property name="text">
+    <string>2D测试</string>
+   </property>
+  </action>
+  <action name="actionExp2">
+   <property name="text">
+    <string>Experiment 2: Verifying Simple 2D-Ghost-Free Stereo</string>
+   </property>
+  </action>
+  <action name="actionExp3">
+   <property name="text">
+    <string>Experiment 3: Assessment</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color Blind Test</string>
+   </property>
+  </action>
+  <action name="action3DDevice">
+   <property name="text">
+    <string>3D Device Test</string>
+   </property>
+  </action>
+  <action name="actionStereo">
+   <property name="text">
+    <string>Stereo Blind Test</string>
+   </property>
+  </action>
+  <action name="actionExp1">
+   <property name="text">
+    <string>Experiment 1: Determining Gaussian Blurring</string>
+   </property>
+  </action>
+  <action name="actionNVIDIA3D">
+   <property name="text">
+    <string>NVIDIA 3D VISION Mode</string>
+   </property>
+  </action>
+  <action name="actionCommonShutter">
+   <property name="text">
+    <string>COMMON SHUTTER 3D Mode</string>
+   </property>
+  </action>
+  <action name="actionexp2Sup">
+   <property name="text">
+    <string>实验2补充</string>
+   </property>
+  </action>
+  <action name="actionExperiment_3">
+   <property name="text">
+    <string>Experiment 3: Assessment</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../oldVersion/QtDxRaw/QtDxRaw/QtDxRaw.qrc"/>
+ </resources>
+ <connections/>
+</ui>
