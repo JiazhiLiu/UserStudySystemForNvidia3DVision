@@ -30,4 +30,4 @@ NVIDIA GTX 1060 3GB
 
 The current version is just a user study demo. We are refactoring the codes of the user system, and hope that we can upload the complete version before the end of this year. 
 
-The demo contains `hardware check`, `color vision check`, `stereo vision check` as well as the API of 3D Image/Video Display. 
+The demo contains `hardware check`, `color vision check`, `stereo vision check` as well as the [API](./userstudy/Display3DWidget.h) of 3D Image/Video Display. 
